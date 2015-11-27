@@ -1,0 +1,84 @@
+/*  GRID OF ELEVEN   ============================================================================= */
+
+.span11-11 {
+	width: 100%;
+}
+
+.span10-11 {
+	width: 90.76%;
+}
+
+.span9-11 {
+	width: 81.52%;
+}
+
+.span8-11 {
+	width: 72.29%;
+}
+
+.span7-11 {
+	width: 63.05%; 
+}
+
+.span6-11 {
+	width: 53.81%; 
+}
+
+.span5-11 {
+	width: 44.58%; 
+}
+
+.span4-11 {
+	width: 35.34%; 
+}
+
+.span3-11 {
+	width: 26.1%;
+}
+
+.span2-11 {
+	width: 16.87%; 
+}
+
+.span1-11 {
+	width: 7.63%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span11-11 {
+		width: 100%; 
+	}
+	.span10-11 {
+		width: 100%; 
+	}
+	.span9-11 {
+		width: 100%; 
+	}
+	.span8-11 {
+		width: 100%; 
+	}
+	.span7-11 {
+		width: 100%; 
+	}
+	.span6-11 {
+		width: 100%; 
+	}
+	.span5-11 {
+		width: 100%; 
+	}
+	.span4-11 {
+		width: 100%; 
+	}
+	.span3-11 {
+		width: 100%; 
+	}
+	.span2-11 {
+		width: 100%; 
+	}
+	.span1-11 {
+		width: 100%; 
+	}
+}

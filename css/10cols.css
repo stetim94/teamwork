@@ -1,0 +1,78 @@
+/*  GRID OF TEN   ============================================================================= */
+
+
+.span10-10 {
+	width: 100%;
+}
+
+.span9-10 {
+	width: 89.84%;
+}
+
+.span8-10 {
+	width: 79.68%;
+}
+
+.span7-10 {
+	width: 69.52%; 
+}
+
+.span6-10 {
+	width: 59.36%; 
+}
+
+.span5-10 {
+	width: 49.2%; 
+}
+
+.span4-10 {
+	width: 39.04%; 
+}
+
+.span3-10 {
+	width: 28.88%;
+}
+
+.span2-10 {
+	width: 18.72%; 
+}
+
+.span1-10 {
+	width: 8.56%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span10-10 {
+		width: 100%; 
+	}
+	.span9-10 {
+		width: 100%; 
+	}
+	.span8-10 {
+		width: 100%; 
+	}
+	.span7-10 {
+		width: 100%; 
+	}
+	.span6-10 {
+		width: 100%; 
+	}
+	.span5-10 {
+		width: 100%; 
+	}
+	.span4-10 {
+		width: 100%; 
+	}
+	.span3-10 {
+		width: 100%; 
+	}
+	.span2-10 {
+		width: 100%; 
+	}
+	.span1-10 {
+		width: 100%; 
+	}
+}

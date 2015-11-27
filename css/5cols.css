@@ -1,0 +1,43 @@
+/*  GRID OF FIVE   ============================================================================= */
+
+	
+.span5-5 {
+	width: 100%;
+}
+
+.span4-5 {
+  	width: 79.68%; 
+}
+
+.span3-5 {
+  	width: 59.36%; 
+}
+
+.span2-5 {
+  	width: 39.04%;
+}
+
+.span1-5 {
+  	width: 18.72%;
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span5-5 {
+		width: 100%; 
+	}
+	.span4-5 {
+		width: 100%; 
+	}
+	.span3-5 {
+		width: 100%; 
+	}
+	.span2-5 {
+		width: 100%; 
+	}
+	.span1-5 {
+		width: 100%; 
+	}
+}

@@ -1,0 +1,71 @@
+/*  GRID OF NINE   ============================================================================= */
+
+
+.span9-9 {
+	width: 100%;
+}
+
+.span8-9 {
+	width: 88.71%;
+}
+
+.span7-9 {
+	width: 77.42%; 
+}
+
+.span6-9 {
+	width: 66.13%; 
+}
+
+.span5-9 {
+	width: 54.84%; 
+}
+
+.span4-9 {
+	width: 43.55%; 
+}
+
+.span3-9 {
+	width: 32.26%;
+}
+
+.span2-9 {
+	width: 20.97%; 
+}
+
+.span1-9 {
+	width: 9.68%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span9-9 {
+		width: 100%; 
+	}
+	.span8-9 {
+		width: 100%; 
+	}
+	.span7-9 {
+		width: 100%; 
+	}
+	.span6-9 {
+		width: 100%; 
+	}
+	.span5-9 {
+		width: 100%; 
+	}
+	.span4-9 {
+		width: 100%; 
+	}
+	.span3-9 {
+		width: 100%; 
+	}
+	.span2-9 {
+		width: 100%; 
+	}
+	.span1-9 {
+		width: 100%; 
+	}
+}

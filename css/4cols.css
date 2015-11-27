@@ -1,0 +1,36 @@
+/*  GRID OF FOUR   ============================================================================= */
+
+	
+.span4-4 {
+	width: 100%; 
+}
+
+.span3-4 {
+	width: 74.6%; 
+}
+
+.span2-4 {
+	width: 49.2%; 
+}
+
+.span1-4 {
+	width: 23.8%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span4-4 {
+		width: 100%; 
+	}
+	.span3-4 {
+		width: 100%; 
+	}
+	.span2-4 {
+		width: 100%; 
+	}
+	.span1-4 {
+		width: 100%; 
+	}
+}

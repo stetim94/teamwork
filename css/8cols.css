@@ -1,0 +1,64 @@
+/*  GRID OF EIGHT   ============================================================================= */
+
+	
+.span8-8 {
+	width: 100%;
+}
+
+.span7-8 {
+	width: 87.3%; 
+}
+
+.span6-8 {
+	width: 74.6%; 
+}
+
+.span5-8 {
+	width: 61.9%; 
+}
+
+.span4-8 {
+	width: 49.2%; 
+}
+
+.span3-8 {
+	width: 36.5%;
+}
+
+.span2-8 {
+	width: 23.8%; 
+}
+
+.span1-8 {
+	width: 11.1%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span8-8 {
+		width: 100%; 
+	}
+	.span7-8 {
+		width: 100%; 
+	}
+	.span6-8 {
+		width: 100%; 
+	}
+	.span5-8 {
+		width: 100%; 
+	}
+	.span4-8 {
+		width: 100%; 
+	}
+	.span3-8 {
+		width: 100%; 
+	}
+	.span2-8 {
+		width: 100%; 
+	}
+	.span1-8 {
+		width: 100%; 
+	}
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- HTML5 Boilerplate -->
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->						<!--[endif]-->
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="description" content="This is the Codecademy users project.">
+	<meta name="keywords" content="responsive, grid, web design, teamwork,">
+	<meta name="Yuliana" content="Codecademy Users Porfolios">
+
+	<meta http-equiv="cleartype" content="on">
+	<title> Yuliana </title>
+
+	<link rel="stylesheet" href="css/html5reset.css" media="all">
+	<link rel="stylesheet" href="css/col.css" media="all">
+	<link rel="stylesheet" href="css/2cols.css" media="all">
+	<link rel="stylesheet" href="css/3cols.css" media="all">
+	<link rel="stylesheet" href="css/8cols.css" media="all">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="teamwork.css">
+	<link href="jquery-ui/jquery-ui.css" rel="stylesheet">
+	
+</head>
+<body>
+<div id="tabs">
+	<ul>
+		<li><a href="#tabs-1">Home</a></li>
+		<li><a href="#tabs-2">Contributors</a></li>
+		<li><a href="#tabs-3">Portfolios</a></li>
+	</ul>
+	<div id="tabs-1">
+		
+	</div>
+	<div id="tabs-2">
+			<!-- Member list -->
+		<h4 class="header"> Contributor </h4>
+		<ul id="users">
+		<!-- registered user will see their name here -->
+			<li> <a href="#"><div>Member user name 1</div></a></li>
+			<li> <a href="#"><div>Member user name 2</div></a></li>
+			<li> <a href="#"><div>Member user name 1</div></a></li>
+			<li> <a href="#"><div>Member user name 2</div></a></li>
+		</ul>
+	</div>
+	<div id="tabs-3">
+	<h4 class="header"> Member's Portfolios </h4>
+		<ul id="users">
+		<!-- registered user will see their name here -->
+			<li> <a href="#"><div>Member portfolio 1</div></a></li>
+			<li> <a href="#"><div>Member portfolio 2</div></a></li>
+			<li> <a href="#"><div>Member portfolio 3</div></a></li>
+			<li> <a href="#"><div>Member portfolio 4</div></a></li>			
+		</ul>
+	</div>
+</div>
+
+<img src="img/me.jpg">
+<div class="col span1-2" id="empty">
+		
+
+</div>
+<div class="col span1-2" id="about-me">
+		<blockquote>
+			<p>He who learns but does not think, is lost! He who thinks but does not learn is in great danger.</p><br/>
+			<footer> <i>Confucius</i></footer>
+		</blockquote>
+	</div>
+
+</div>
+
+
+<div class="section group">
+<!-- Footer -->
+	<div class="col span2-2" id="footer">
+		<!-- Put Somethin in footer section-->
+		<p> Lorem ipsum dolor sit amet,  Nulla nec tortor. Donec id elit quis purus consectetur consequat </p>
+	</div>
+</div>
+
+<script src="jquery-ui/external/jquery/jquery.js"></script>
+<script src="jquery-ui/jquery-ui.js"></script>
+<script>
+$( "#tabs" ).tabs();
+$( "#button" ).button();
+</script>
+</body>
+</html>
