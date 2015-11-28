@@ -2,3 +2,4 @@ contributors @github-teamwork :
 
 1. stetim9 http://discuss.codecademy.com/users/stetim94
 2. zystvan http://discuss.codecademy.com/users/zystvan
+3. Redme12 http://discuss.codecademy.com/users/readme12

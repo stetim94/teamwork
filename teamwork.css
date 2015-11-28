@@ -1,4 +1,4 @@
-bbody {
+body {
     font-family: 'Helvetica Neue', arial, helvetica, helve, sans-serif;
     background-color: #00CCFF;
     background: url('img/Lighthouse.jpg')  no-repeat center 50px fixed;
@@ -19,24 +19,14 @@ p {
 	font-size: 30px;
 }
 #users li {
-	display: inline-block;
+	display: block;
 	color: white;
 	}
 #users li a{
-	color: black;
+	color: #CCCCFF;
 	padding: 3px;
 	text-align: center;
-	}	
-
-#users li a div {
-	padding: 5px;
-	text-align: center;
-	height: 20px;
-	background: #CCCCFF;
-	text-align: center;
-	border-radius: 3px;
-
-}
+	}
 
 #content {
 	border-radius: 10px;
@@ -159,7 +149,7 @@ border-radius: 100%;
 width: 150px;
 height: 150px;
 position: absolute;
-right: 3%;
+right: 1%;
 top: 9%;
 z-index: 1;
 }
@@ -170,8 +160,8 @@ height: 170px;
 #about-me {
 	position: relative;
 	border-radius: 10px;
-	height: 270px;
-	padding: 10px;
+	height: auto;
+	padding: 5px 20px 5px 20px;
     background-color: #ffffff;
     opacity: 0.6;
     filter: alpha(opacity=60);
@@ -180,4 +170,8 @@ height: 170px;
     font-weight: bold;
     color: #000000;
     top: 30%;
+}
+#about-me p {
+	padding: 5px 20px 5px 20px;
+    margin-top: 5px;
 }
