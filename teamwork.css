@@ -1,8 +1,9 @@
-body {
-	font-family: 'Helvetica Neue', arial, helvetica, helve, sans-serif;
-	background-color: #00CCFF;
-	background-image: url('img/Lighthouse.jpg');
-	border-image-width: 10px;
+bbody {
+    font-family: 'Helvetica Neue', arial, helvetica, helve, sans-serif;
+    background-color: #00CCFF;
+    background: url('img/Lighthouse.jpg')  no-repeat center 50px fixed;
+    border-image-width: 10px;
+    background-size: cover;
 }
 h4{
 	color: white;
